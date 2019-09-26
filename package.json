@@ -1,0 +1,26 @@
+{
+  "name": "http-api-assignment-ii",
+  "version": "1.0.0",
+  "description": "API Homework 2",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cimo02/http-api-assignment-ii.git"
+  },
+  "author": "Tyler Ciarmataro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cimo02/http-api-assignment-ii/issues"
+  },
+  "homepage": "https://github.com/Cimo02/http-api-assignment-ii#readme",
+  "devDependencies": {
+    "eslint": "^6.4.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.18.2"
+  }
+}
